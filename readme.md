@@ -41,7 +41,7 @@ inheritance abc class
     - pass type name and attribute names
     - type returned is a tuple with attributes
     - useful for importing/exporting structured data 
-        1.1 abc. Sequence <- typing.NamedTuple
+        1.1 abc. Sequence <- typing.NamedTuple 
         - enables typical class syntax if used NamedTuple
         - wraps call to factory function
         - explicit syntax for type hints and defaults
@@ -149,3 +149,12 @@ hash|value
 222|'a'
 321|'b'
 222 + algorithm|'c'
+
+
+## Deque - kolejka - first in first out
+    - abc.Sequence <- abc.MutableSequence <- deque
+    - "Double ended queue" - kolejka z dwoma zakonczeniami
+    - can be use as a queue and/or stack!
+    - can add elements or remove from both 'ends'
+    - can limit number of items (maxlen)
+    - 
